@@ -4,24 +4,169 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment_03_Category_0002</title>
-
+    <!-- Daisy Ui cdn -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
       rel="stylesheet"
       type="text/css"
     />
+
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind cdn -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- Tailwind Config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "accent-color": "#179800",
+              "secoundary-color": "#EFEBE3",
+              width: {
+                275: "17rem",
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <!-- icon -->
+    <script
+      src="https://kit.fontawesome.com/c2410dfe63.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Sora Goggle Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .sora-font {
+        font-family: "Sora", serif;
+      }
+    </style>
   </head>
-  <body>
-      <header>
+  <body class="sora-font">
+    <!-- Header Section -->
+    <header
+      class="mx-auto p-5 pb-10 lg:p-0 lg:px-32 lg:mb-28 bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] "
+    >
+      <!-- Nav bar start Here -->
+      <header class="max-w-5xl mx-auto ">
+        <!-- Nav bar start Here -->
+        <nav class="space-x-4">
+          <div class="navbar lg:pt-8 justify-between">
+            <div class="w-36 h-12">
+              <img src="./assets/logo-header.png" alt="" />
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-[#737373] font-normal">
+                <li class="">
+                  <a>Product</a>
+                </li>
+                <li><a>Services</a></li>
 
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <!-- right sight nav bar -->
+            <div class="flex items-end">
+              <div class="hidden lg:block">
+                <i
+                  class="fa-solid fa-magnifying-glass w-8 h-8 p-2 rounded-full bg-[#ffffff] text-[#737373] mr-2"
+                ></i>
+                <i
+                  class="fa-solid fa-cart-shopping  p-2 rounded-full bg-[#ffffff] text-[#737373] mr-2"
+                ></i>
+                <button class="px-8 btn  btn-outline border-accent-color ">
+                  <a class="  text-[#1C1C1C]">Login </a>
+                </button>
+                <button class="btn bg-accent-color  btn-outlin">
+                  <a class=" px-8 text-white-color">Register </a>
+                </button>
+              </div>
+              <div class="dropdown w-12 lg:hidden">
+                <div
+                  tabindex="0"
+                  role="button"
+                  class="btn btn-circle lg:hidden"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    class="inline-block h-5 w-5 stroke-current"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- header body -->
+        <div class="justify-between">
+          
+          <div class="mx-auto items-center text-center  pt-24 pb-0 px-16">
+            <h3
+              class=" font-semibold text-3xl lg:text-5xl text-[#212121] mb-24 lg:mb-5 lg:w-11/12 "
+            >
+            Freshness  You <span class="text-accent-color">Can<br> 
+
+            Count</span>  On, Prices You’ll Love!
+            </h3>
+            <p
+              class="font-medium text-center text-[#494949] mb-6 text-sm lg:text-base lg:w-11/12 lg:px-10"
+            >Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>  staples, we’ve got you covered every day!
+            </p>
+            <div class="card-actions">
+              
+              <figure class="mx-auto pt-8">
+                <img src="./assets/hero-vegetables.png" alt="banner" />
+              </figure>
+            </div>
+          </div>
+        </div>
       </header>
-      <main>
+    </header>
 
-      </main>
-      <footer>
+    <main></main>
+    <footer class="h-96 bg-accent-color   ">
+      <div class="flex flex-col lg:flex-row max-w-5xl gap-6 mx-auto lg:items-center lg:justify-between  h-96  ">
+       <div class="w-64 mr-10 mt-16 lg:mr-0 relative ">
+           <div class="flex justify-center items-center gap-2 ">
+               <img  src="./assets/logo-footer.png" alt="">
+               
+           </div>
+           <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+       </div>
+       <div class="font-semibold  lg:ml-0"> 
+           <h1>Product</h1>
+           <h1>Services</h1>
+           <h1>Contact us</h1>
+       </div>
+       <div>
+<h1 class="font-bold text-md">Follow Us</h1>
+<div class="flex">
+  <i class="fa-brands fa-facebook  p-2 rounded-full  text-[#EFEBE3] mr-2"></i>
+  <i class="fa-brands fa-instagram  p-2 rounded-full  text-[#EFEBE3] mr-2"></i>
+  <i class="fa-brands fa-linkedin-in  p-2 rounded-full  text-[#EFEBE3] mr-2"></i>
+  <i class="fa-brands fa-youtube  p-2 rounded-full  text-[#EFEBE3] mr-2"></i>
 
-      </footer>
+   
+</div>
+
+       </div>
+      </div>
+
+   </footer>
   </body>
 </html>
