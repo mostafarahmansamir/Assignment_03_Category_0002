@@ -55,12 +55,12 @@
       class="mx-auto p-5 pb-10 lg:p-0 lg:px-32 lg:mb-28 bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] bg-secoundary-color"
     >
       <!-- Nav bar start Here -->
-      <header class="max-w-5xl mx-auto">
+      <header class="max-w-5xl mx-auto ">
         <!-- Nav bar start Here -->
-        <nav class="space-x-4">
+        <nav class="space-x-4 border-b-2 border-green-500">
           <div class="navbar lg:pt-8 justify-between">
             <div class="w-36 h-12">
-              <img src="./assets/logo-header.png" alt="" />
+              <img class="w-28 lg:w-full " src="./assets/logo-header.png" alt="" />
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1 text-[#737373] font-normal">
@@ -210,14 +210,14 @@
           </div>
         </div>
       </section>
-      <section class="bg-secoundary-color  md:w-full">
+      <section class="bg-secoundary-color md:w-full">
         <h2
           class="p-10 text-center text-accent-color font-semibold text-4xl lg:text-start"
         >
           Popular Products
         </h2>
-        <div class="p-10 lg:flex lg:gap-10 " >
-          <div class="p-10 mb-5 rounded-3xl bg-accent-color flex">
+        <div class="p-10 lg:flex lg:gap-10">
+          <div class="p-10 mb-5 rounded-3xl flex bg-green-500 bg-linear-90 from-red-500 to-green-600">
             <div>
               <h1 class="text-3xl text-white">30% 0ff</h1>
               <p class="my-5 text-sm text-[#111111]">
@@ -227,12 +227,16 @@
               <button class="btn rounded-xl px-16">Buy Now</button>
             </div>
             <div>
-              <img class=" mt-10   h-full" src="assets/vegetable-offer.png" alt="" />
+              <img
+                class="mt-10 h-full"
+                src="assets/vegetable-offer.png"
+                alt=""
+              />
             </div>
           </div>
-          <div >
-            <div class=" grid grid-cols-3 gap-x-5 gap-y-5">
-              <div class="bg-white  rounded-xl flex gap-0 ">
+          <div>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-x-5 gap-y-5">
+              <div class="bg-white rounded-xl flex gap-0">
                 <div class="p-4">
                   <img
                     class="bg-secoundary-color p-2 rounded-3xl"
@@ -245,7 +249,7 @@
                     <i class="fa-solid fa-star" style="color: #ffd43b"> </i> 4.5
                   </h4>
                   <h1 class="font-medium">Onion 1 KG</h1>
-                  <h2 class="font-medium" >$39.99</h2>
+                  <h2 class="font-medium">$39.99</h2>
                 </div>
               </div>
 
@@ -388,7 +392,60 @@
           </div>
         </div>
       </section>
+      <section class="bg-white my-5 mx-5">
+        <h2
+          class="text-accent-color text-center font-semibold text-3xl mb-12 mt-24 lg:text-start"
+        >
+          Arrival & Offers
+        </h2>
+        <div class="lg:flex gap-5">
+          <div
+            class="flex gap-2 lg:gap-5 bg-[#115414] p-5 mb-5 rounded-3xl md:mb-0"
+          >
+            <div class="">
+              <img class="mt-12 -ml-4" src="assets/dawat-logo.png" alt="" />
+              <button
+                class="btn bg-[#63B76D] border-[#63B76D] text-white rounded-xl my-2 px-6 lg:my-6 lg:px-10"
+              >
+                <pre>Cook Exotic Dishes</pre>
+              </button>
+              <h2 class="text-white text-xl lg:text-2xl">
+                <pre> UP to <span class="font-bold">20% OFF</span></pre>
+              </h2>
+            </div>
+            <div>
+              <img
+                class="w-44 h-40 lg:h-60 lg:w-80 mt-5"
+                src="assets/dawat-mock-up.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="flex gap-5 bg-[#102861] pl-0 p-10 rounded-3xl">
+            +
+            <div class="">
+              <img class="" src="assets/india-gate-logo.png" alt="" />
+              <button
+                class="btn bg-[#3761bd] border-[#3761bd] text-white rounded-xl my-6 px-5"
+              >
+                World’s No.1 Rice
+              </button>
+              <h2 class="text-white text-2xl">
+                <pre>UP to <span class="font-bold">20% OFF</span></pre>
+              </h2>
+            </div>
+            <div>
+              <img
+                class="w-44 h-40 lg:h-60"
+                src="assets/india-gate-mock-up.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <!-- footer-------------------------------- -->
     <footer
       class="bg-accent-color text-secoundary-color pl-4 lg:w-full lg:h-96 md:w-full"
     >
